@@ -5,5 +5,5 @@
 #: Version : 1.0
 #: Description : cpu count script
 #: Options :
-printf "Number of CPU's is: "
-grep 'processor' /proc/cpuinfo | wc -l
+cpucnt=$( grep 'processor' /proc/cpuinfo | wc -l )
+printf "Number of CPU's is: %s\n" $cpucnt
