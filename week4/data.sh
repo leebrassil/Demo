@@ -7,8 +7,8 @@
 #: Options : 
 echo "Enter your name"
 read name
-echo "Enter the omnth you were born in"
+echo "Enter the month you were born in"
 read month
 echo "Enter your favourite colour"
 read colour
-printf "Hello $name you were born in $month and your favourite colour is $colour" 
+printf "Hello $name you were born in $month and your favourite colour is $colour \n" 
