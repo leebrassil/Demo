@@ -7,5 +7,5 @@
 #: Options : 
 echo "Write entry"
 read diary
-echo "$diary" >> diary.txt
-date >> diary.txt
+today=$( date )
+printf "%s %s" "$diary" "$today" >> diary.txt
