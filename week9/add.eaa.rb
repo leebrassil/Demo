@@ -15,3 +15,7 @@ file '/home/webserver/test' do
 	action :create
 	content 'This is a test'
 end
+
+file 'home/webserver/config.xml' do
+	action :delete
+end
