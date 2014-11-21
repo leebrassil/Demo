@@ -1,0 +1,500 @@
+   58  git config --global user.name "leebrassil"
+   59  exit
+   60  git config --global user.email "leebrassil@hotmail.com"
+   61  git config --global user.name "leebrassil"
+   62  git commit -m "first commit"
+   63  gedit README.md
+   64  git commit -a
+   65  git push origin master
+   66  ls
+   67  git push -u origin master
+   68  git remote add origin https://github.com/leebrassil/EAA.lab.2.git
+   69  git push -u origin master
+   70  git remote add origin https://github.com/leebrassil/EAA.git
+   71  git push -u origin master
+   72  git remote remove origin https://github.com/leebrassil/EAA.git
+   73  git remote add origin https://github.com/leebrassil/EAA.git
+   74  clear
+   75  history
+   76  export GIT_SSL_NO_VERIFY=1
+   77  export http_proxy=http://localhost:3128
+   78  git config --global user.email "leebrassil"hotmail.com"
+   79  git config --global user.email "leebrassil@hotmail.com"
+   80  git config --global user.name "leebrassil"
+   81  mkdir EAA.lab.2
+   82  cd EAA.lab.2
+   83  mkdir week2
+   84  cd week2
+   85  touch script.sh
+   86  cd ..
+   87  touch README.md
+   88  git init
+   89  git add -A
+   90  git commit -a
+   91  git remote add origin https://github.com/leebrassil/EAA.lab.2.git
+   92  git push -u origin master
+   93  clear
+   94  cd ../..
+   95  man grep
+   96  clear
+   97  git remote add origin https://github.com/leebrassil/EAA.git
+   98  export GIT_SSL_NO_VERIFY=1
+   99  export http_proxy=http://localhost:3128
+  100  git config --global user.email "leebrassil@hotmail.com"
+  101  git config --global user.name "leebrassil"
+  102  mkdir EAA.lab.2
+  103  cd EAA.lab.2
+  104  mkdir week2
+  105  cd week2
+  106  touch script.sh
+  107  cd ..
+  108  touch README.md
+  109  ls
+  110  gedit README.md
+  111  git init
+  112  git add -A
+  113  git commit -a
+  114  git remote add origin https://github.com/leebrassil/EAA.git
+  115  git push -u origin master
+  116  grep 'processor' /proc/cpuinfo
+  117  cd ../..
+  118  cd ..
+  119  grep 'processor' /proc/cpuinfo
+  120  grep 'processor' /proc/cpuinfo | wc -l > home/mint/processor.txt
+  121  grep 'processor' /proc/cpuinfo | wc -l > /home/mint/EAA.lab.2/processor.txt
+  122  ls
+  123  cd /home/mint/EAA.lab.2
+  124  git add -A
+  125  git commit -a
+  126  git push -u origin master
+  127  ls
+  128  cd week2
+  129  rm cpucount.sh
+  130  gedit cpucpunt.sh
+  131  ls
+  132  ls
+  133  ls
+  134  gedit cpuscript.sh
+  135  ls
+  136  git add -A
+  137  git commit -a
+  138  git push -u origin master
+  139  clear
+  140  ls
+  141  gedit cpuscript.sh
+  142  ls -l
+  143  chmod +x cpucount.sh
+  144  sudo su
+  145  export GIT_SSL_NO_VERIFY=1
+  146  export http_proxy=http://localhost:3128
+  147  git config --global user.email "leebrassil@hotmail.com"
+  148  git config --global user.name "leebrassil"
+  149  ls
+  150  cd EAA.lab.2
+  151  ls
+  152  cd week2
+  153  ls
+  154  git commit -a
+  155  git push -u origin master
+  156  cd ../..
+  157  ls
+  158  history > history.txt
+  159  git add -A
+  160  cd EAA.lab.2
+  161  ls
+  162  git add -A
+  163  git commit -a
+  164  git push origin master
+  165  sudo shutdown now
+  166  gedit
+  167  gedit x
+  168  sudo su
+  169  ls -l
+  170  touch demo /bin
+  171  ls -l /bin
+  172  cls
+  173  clear
+  174  ls -l /
+  175  gedit x
+  176  ls -l /home/mint/.gnome2/gedit/
+  177  cd /home/mint/.gnome2/
+  178  ls -l
+  179  chown -R  mint gedit
+  180  sudo su
+  181  cd /home/mint/.gnome2/
+  182  ls -l
+  183  gedit x
+  184  man ls
+  185  man chown
+  186  sudo chown mint:mint gedit
+  187  ls -l
+  188  cd home
+  189  ls
+  190  cd documents
+  191  cd Documents
+  192  ls
+  193  ls
+  194  cd home
+  195  cd /home/mint
+  196  ls
+  197  cls
+  198  clear
+  199  clear
+  200  export GIT_SSL_NO_VERIFY=1
+  201  export http_proxy=http://localhost:3128
+  202  git config --global user.email "leebrassil@hotmail.com"
+  203  git config --global user.name "leebrassil"
+  204  ls
+  205  mkdir Demo
+  206  cd Demo
+  207  mkdir week3
+  208  cd week3
+  209  touch script.sh
+  210  ls
+  211  git init
+  212  man init
+  213  ls
+  214  rm -rf .git
+  215  ls
+  216  cd ..
+  217  git init
+  218  git add -A
+  219  git commit -a
+  220  git remote add origin https://github.com/leebrassil/Demo.git
+  221  git push origin master
+  222  git remote add origin https://github.com/leebrassil/Demo.git
+  223  git push origin master
+  224  export GIT_SSL_NO_VERIFY=1
+  225  export http_proxy=http://localhost:3128
+  226  git config --global user.email "leebrassil@hotmail.com"
+  227  git config --global user.name "leebrassil"
+  228  mkdir Demo
+  229  cd Demo
+  230  mkdir week3
+  231  cd week3
+  232  touch script.sh
+  233  cd ..
+  234  touch README.md
+  235  git init
+  236  git add -A
+  237  git commit -a
+  238  git remote add origin https://github.com/leebrassil/Demo.git
+  239  git push origin master
+  240  git push origin master
+  241  ls -l
+  242  cd ..
+  243  ls
+  244  history > history.txt
+  245  clear
+  246  cd demo
+  247  cd Demo
+  248  cd week3
+  249  ls
+  250  gedit script.sh
+  251  git commit -a
+  252  git push origin master
+  253  ls -l
+  254  chmod +x script.sh
+  255  ./script.sh
+  256  git commit -a
+  257  git push origin master
+  258  gedit script.sh
+  259  ./script.sh
+  260  git commit -a
+  261  git push -u origin master
+  262  man git push
+  263  clear
+  264  ./script.sh
+  265  gedit script.sh
+  266  ./script.sh
+  267  git commit -a
+  268  git push -u origin master
+  269  gedit script.sh
+  270  git commit -a
+  271  git push -u origin master
+  272  export GIT_SSL_NO_VERIFY=1
+  273  export http_proxy=http://localhost:3128
+  274  git config --global user.email "leebrassil@hotmail.com"
+  275  git config --global user.name "leebrassil"
+  276  ls
+  277  cd Demo
+  278  ls
+  279  mkdir week4
+  280  ls
+  281  cd week4
+  282  gedit hw.sh
+  283  ls -l
+  284  chmod +x hw.sh
+  285  ls -l
+  286  ./hw.sh
+  287  gedit hw.sh
+  288  git remote add origin https://github.com/leebrassil/Demo.git
+  289  git add -A
+  290  git commit -a
+  291  git push -u origin master
+  292  ls
+  293  gedit hw.sh Lee
+  294  ls
+  295  ./hw.sh Lee
+  296  gedit hw.sh
+  297  gedit data.sh
+  298  git add -A
+  299  git commit -a
+  300  git push -u origin master
+  301  ls
+  302  chmod +x data.sh
+  303  ls
+  304  ./data.sh
+  305  gedit data.sh
+  306  git commit -a
+  307  git push -u origin master
+  308  ./data.sh
+  309  gedit diary.sh
+  310  gedit diary.sh
+  311  man date
+  312  date
+  313  gedit diary.sh
+  314  chmod +x diary.txt
+  315  chmod +x diary.sh
+  316  ./diary.sh
+  317  gedit diary.sh
+  318  ./diary.sh
+  319  gedit diary.sh
+  320  ./diary.sh
+  321  gedit diary.sh
+  322  ./diary.sh
+  323  gedit diary.sh
+  324  ./diary.sh
+  325  gedit diary.sh
+  326  ./diary.sh
+  327  gedit diary.sh
+  328  ./diary.sh
+  329  gedit diary.sh
+  330  ./diary.sh
+  331  gedit diary.sh
+  332  ./diary.sh
+  333  export GIT_SSL_NO_VERIFY=1
+  334  export http_proxy=http://localhost:3128
+  335  git config --global user.email "leebrassil@hotmail.com"
+  336  git config --global user.name "leebrassil"
+  337  cd Demo
+  338  cd week4
+  339  ls
+  340  gedit diary.sh
+  341  ./diary.sh
+  342  gedit diary.sh
+  343  ./diary.sh
+  344  gedit diary.sh
+  345  ./diary.sh
+  346  gedit diary.sh
+  347  ./diary.sh
+  348  gedit diary.sh
+  349  ./diary.sh
+  350  gedit diary.sh
+  351  ./diary.sh
+  352  git add -A
+  353  git commit -a
+  354  push -u origin master
+  355  git push -u origin master
+  356  mkdir lab4
+  357  cd lab4
+  358  git add -A
+  359  got commit -a
+  360  git commit -a
+  361  cd ..
+  362  gedit diaty.sh
+  363  gedit diary.sh
+  364  ./diary.sh
+  365  gedit diary.sh
+  366  ./diary.sh
+  367  ./diary.sh
+  368  git commit -a
+  369  git push -u origin master
+  370  cd lab4
+  371  git add -A
+  372  git commit -a
+  373  gedit lab.sh
+  374  git add -A
+  375  git commit -a
+  376  git push -u origin master
+  377  gedit lab.sh
+  378  chmod +x lab.sh
+  379  ./lab.sh Lee
+  380  chmod +x lab.sh
+  381  chmod +x lab.sh
+  382  gedit lab.sh
+  383  ./lab.sh Lee
+  384  gedit lab.sh
+  385  ./lab.sh Lee
+  386  gedit lab.sh
+  387  ./lab.sh Lee
+  388  gedit lab.sh
+  389  ./lab.sh Lee
+  390  gedit lab.sh
+  391  ./lab.sh Lee
+  392  gedit lab.sh
+  393  ./lab.sh Lee
+  394  gedit lab.sh
+  395  ./lab.sh Lee
+  396  clerar
+  397  clear
+  398  gedit lab.sh
+  399  ./lab.sh Lee
+  400  gedit lab.sh
+  401  ./lab.sh Lee
+  402  gedit lab.sh
+  403  ./lab.sh Lee
+  404  ./lab.sh cache
+  405  ./lab.sh speed
+  406  ./lab.sh Lee
+  407  gedit lab.sh
+  408  ./lab.sh speed
+  409  gedit lab.sh
+  410  ./lab.sh speed
+  411  gedit lab.sh
+  412  ./lab.sh speed
+  413  grep "speed" /proc/cpuinfo
+  414  grep "cpu" /proc/cpuinfo
+  415  gedit lab.sh
+  416  ./lab.sh speed
+  417  gedit lab.sh
+  418  ./lab.sh speed
+  419  gedit lab.sh
+  420  ./lab.sh speed
+  421  ./lab.sh cache
+  422  gedit lab.sh
+  423  ./lab.sh cache
+  424  gedit lab.sh
+  425  ./lab.sh cache
+  426  gedit lab.sh
+  427  ./lab.sh cache
+  428  ./lab.sh speed
+  429  gedit lab.sh
+  430  ./lab.sh speed
+  431  ./lab.sh cache
+  432  ./lab.sh lee
+  433  git add -A
+  434  git commit -a
+  435  git push origin master
+  436  cd ../..
+  437  cd ..
+  438  sudo su
+  439  ls
+  440  cd Desktop
+  441  history >> history.txt
+  442  cd /home/mint/Demo/week4
+  443  ls
+  444  gedit diary.sh
+  445  cd ..
+  446  ls
+  447  mkdir week6
+  448  cd week6
+  449  man hdparm
+  450  hdparm
+  451  hdparm -I
+  452  clear
+  453  hdparm -I /dev/sda
+  454  sudo hdparm -I /dev/sda
+  455  sudo grep "device size" | hdparm -I /dev/sda
+  456  sudo su
+  457  sudo su
+  458  man cron
+  459  crontab -e
+  460  cd /home/mint/Demo/week4
+  461  gedit diary.sh
+  462  gedit diary.sh
+  463  cd ..
+  464  cd week6
+  465  gedit notes
+  466  crontab -e
+  467  cd /home/mint/Demo/week6
+  468  ls
+  469  tail -f log.txt
+  470  ls
+  471  clear
+  472  ls
+  473  cd ..
+  474  cd week3
+  475  ls
+  476  crontab -e
+  477  ls
+  478  cd ..
+  479  cd week6
+  480  ls
+  481  tail -f log.txt
+  482  ls
+  483  gedit log.txt
+  484  cd ..
+  485  cd week3
+  486  gedit script
+  487  gedit script.sh
+  488  crontab -e
+  489  ls
+  490  tail -f log.txt
+  491  export GIT_SSL_NO_VERIFY=1
+  492  export http_proxy=http://localhost:3128
+  493  git commit -a
+  494  git push origin master
+  495  export GIT_SSL_NO_VERIFY=1
+  496  export http_proxy=http://localhost:3128
+  497  git config --global user.email "leebrassil@hotmail.com"
+  498  git config --global user.name "leebrassil"
+  499  ls
+  500  cd Home
+  501  ls
+  502  git clone https://github.com/leebrassil/Demo
+  503  cd Demo
+  504  ls
+  505  mkdir week9
+  506  mkdir week10
+  507  cd week10
+  508  free
+  509  netstat
+  510  quota
+  511  who
+  512  whoami
+  513  whoami
+  514  clear
+  515  cd ..
+  516  cd week9
+  517  ls
+  518  gedit add.eaa.rb
+  519  ./add.eaa.rb
+  520  sudo ./add.eaa.rb
+  521  sudo .add.eaa.rb
+  522  sudo chef-apply add.eaa.rb
+  523  who
+  524  cd ..
+  525  cd week10
+  526  ls
+  527  sudo webserver
+  528  sudo su - webserver
+  529  who
+  530  clear
+  531  cd ../..
+  532  cd .chef/
+  533  ls
+  534  gedit knife.rb
+  535  sudo knife create cookbook test
+  536  sudo knife cookbook create test
+  537  sudo knife cookbook create mpstat
+  538  cd ..
+  539  cd Demo/week10
+  540  ls
+  541  cd cookbooks
+  542  ls
+  543  more mpstat
+  544  ls mpstat
+  545  more mpstat/README.md
+  546  clear
+  547  ls mpstat
+  548  git add -A
+  549  cd ..
+  550  cd ..
+  551  git add -A
+  552  git commit -a
+  553  git remote add origin https://github.com/leebrassil/Demo.git
+  554  git push -u origin master
+  555  cd week10
+  556  clear
+  557  history >> history.txt
